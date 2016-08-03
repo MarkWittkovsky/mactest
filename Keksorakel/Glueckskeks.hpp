@@ -10,5 +10,20 @@
 #define Glueckskeks_hpp
 
 #include <stdio.h>
+#include "keks.hpp"
+
+
+class Glueckskeks : public Keks  {
+public:
+    using Keks::Keks;
+    Glueckskeks(string const Botschaft);
+    Glueckskeks(Kekstyp Typ, string const Botschaft);
+    void aufessen();
+    string  zerbroeseln();
+    
+private:
+    string botschaft;
+};
 
 #endif /* Glueckskeks_hpp */
+

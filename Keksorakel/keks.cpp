@@ -8,6 +8,11 @@
 
 #include "keks.hpp"
 
+Keks::Keks() :
+typ {Kekstyp::ChinaRestaurant} {
+};
+
 Keks::Keks(const Kekstyp Typ) :
 typ {Typ} {
 };
+

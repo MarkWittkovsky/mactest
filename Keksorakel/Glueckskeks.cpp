@@ -7,3 +7,20 @@
 //
 
 #include "Glueckskeks.hpp"
+#include "keks.hpp"
+
+Glueckskeks::Glueckskeks(string const Botschaft) :
+Keks{}, botschaft {Botschaft} {
+};
+
+Glueckskeks::Glueckskeks(Kekstyp Typ, string const Botschaft) :
+Keks{Typ}, botschaft {Botschaft} {
+};
+
+void Glueckskeks::aufessen() {
+    
+};
+
+string Glueckskeks::zerbroeseln() {
+    return botschaft;
+};

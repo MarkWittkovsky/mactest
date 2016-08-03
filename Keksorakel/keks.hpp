@@ -14,10 +14,11 @@
 
 using namespace std;
 
-enum Kekstyp {Butter, Schoko, Creme, Waffel, Roellchen};
+enum Kekstyp {Butter, Schoko, Creme, Waffel, Roellchen, ChinaRestaurant};
 
 class Keks {
 public:
+    Keks();
     Keks(const Kekstyp typ);
 private:
     Kekstyp typ;
