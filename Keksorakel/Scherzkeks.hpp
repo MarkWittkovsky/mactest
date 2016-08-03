@@ -1,29 +1,29 @@
 //
-//  Glueckskeks.hpp
+//  Scherzkeks.hpp
 //  Keksorakel
 //
 //  Created by Daniela on 03.08.16.
 //  Copyright © 2016 Daniela. All rights reserved.
 //
 
-#ifndef Glueckskeks_hpp
-#define Glueckskeks_hpp
+#ifndef Scherzkeks_hpp
+#define Scherzkeks_hpp
 
 #include <stdio.h>
 #include "keks.hpp"
 
 
-class Glueckskeks : public Keks  {
+class Scherzkeks : public Keks  {
 public:
     using Keks::Keks;
-    Glueckskeks(string const Botschaft);
-    Glueckskeks(Kekstyp Typ, string const Botschaft);
+    Scherzkeks(string const fuellung);
+    Scherzkeks(Kekstyp Typ, string const fuellung);
     void aufessen();
     virtual string  zerbroeseln();
     
 private:
-    string botschaft;
+    string fuellung;
 };
 
-#endif /* Glueckskeks_hpp */
+#endif /* Scherzkeks_hpp */
 

@@ -16,3 +16,7 @@ Keks::Keks(const Kekstyp Typ) :
 typ {Typ} {
 };
 
+string Keks::zerbroeseln() {
+    return "";
+};
+

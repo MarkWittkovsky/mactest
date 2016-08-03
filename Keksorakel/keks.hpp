@@ -20,6 +20,7 @@ class Keks {
 public:
     Keks();
     Keks(const Kekstyp typ);
+    virtual string  zerbroeseln();
 private:
     Kekstyp typ;
 };
