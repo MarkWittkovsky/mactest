@@ -25,6 +25,7 @@ int main(int argc, const char * argv[]) {
 //    for (auto x : kekse) {
 //        cout << static_cast<>x.zerbroeseln();
 //    }
+//
     
         vector<Keks*> dieKekse;
         dieKekse.push_back( new Glueckskeks("Viel Glück"));
